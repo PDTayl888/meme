@@ -1,12 +1,15 @@
 package com.firstmaker.meme.core.theme
 
 import androidx.compose.material3.Typography
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 import meme.composeapp.generated.resources.Res
 import meme.composeapp.generated.resources.impact
 import meme.composeapp.generated.resources.manrope
+import org.jetbrains.compose.resources.Font
 
 object Fonts {
     val Manrope @Composable get() = FontFamily(
