@@ -1,0 +1,62 @@
+package com.firstmaker.meme.core.theme
+
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import meme.composeapp.generated.resources.Res
+import meme.composeapp.generated.resources.impact
+import meme.composeapp.generated.resources.manrope
+
+object Fonts {
+    val Manrope @Composable get() = FontFamily(
+        Font(
+            resource = Res.font.manrope,
+            weight = FontWeight.Normal
+        )
+    )
+}
+
+object Impact {
+    val Manrope @Composable get() = FontFamily(
+        Font(
+            resource = Res.font.impact,
+            weight = FontWeight.Normal
+        )
+    )
+}
+
+val Typography: Typography
+    @Composable get() = Typography(
+        displayLarge = TextStyle(
+            fontFamily = Fonts.Manrope,
+            fontWeight = FontWeight.Medium,
+            fontSize = 24.sp,
+            lineHeight = 28.sp
+        ),
+        displayMedium = TextStyle(
+            fontFamily = Fonts.Manrope,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 22.sp,
+        ),
+        displaySmall = TextStyle(
+            fontFamily = Fonts.Manrope,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 18.sp,
+        ),
+        bodyLarge = TextStyle(
+            fontFamily = Fonts.Manrope,
+            fontWeight = FontWeight.Normal,
+            fontSize = 20.sp,
+        ),
+        bodyMedium = TextStyle(
+            fontFamily = Fonts.Manrope,
+            fontWeight = FontWeight.Normal,
+            fontSize = 16.sp,
+        ),
+        bodySmall = TextStyle(
+            fontFamily = Fonts.Manrope,
+            fontWeight = FontWeight.Normal,
+            fontSize = 12.sp,
+        ),
+    )
