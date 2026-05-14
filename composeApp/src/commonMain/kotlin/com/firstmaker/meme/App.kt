@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.firstmaker.meme.core.theme.MemeCreatorTheme
+import com.firstmaker.meme.meme_editor.presentation.MemeGalleryScreen
 import org.jetbrains.compose.resources.painterResource
 
 import meme.composeapp.generated.resources.Res
@@ -24,27 +25,10 @@ import meme.composeapp.generated.resources.compose_multiplatform
 @Preview
 fun App() {
     MemeCreatorTheme {
-        var showContent : Boolean by remember { mutableStateOf(value = false) }
-        Column(
-            modifier = Modifier
-                .background(color = MaterialTheme.colorScheme.primaryContainer)
-                .safeContentPadding()
-                .fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ) {
-            Button(onClick = { showContent = !showContent }) {
-                Text("Click me!")
+        MemeGalleryScreen(
+            onMemeTemplateSelected = {
+
             }
-            AnimatedVisibility(visible = showContent) {
-                val greeting : String = remember { Greeting().greet() }
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                ) {
-                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("Compose: $greeting")
-                }
-            }
-        }
+        )
     }
 }
