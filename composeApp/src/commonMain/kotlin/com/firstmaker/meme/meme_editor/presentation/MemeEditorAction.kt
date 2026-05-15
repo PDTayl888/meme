@@ -2,7 +2,7 @@ package com.firstmaker.meme.meme_editor.presentation
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.unit.IntSize
-import com.plcoding.cmp_memecreator.core.presentation.MemeTemplate
+import com.firstmaker.meme.core.presentation.MemeTemplate
 
 sealed interface MemeEditorAction {
     data object OnGoBackClick: MemeEditorAction
