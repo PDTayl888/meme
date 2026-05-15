@@ -37,10 +37,10 @@ import cmpmemecreator.composeapp.generated.resources.leave_editor_title
 import cmpmemecreator.composeapp.generated.resources.meme_template_01
 import com.firstmaker.meme.core.presentation.MemeTemplate
 import com.firstmaker.meme.core.theme.MemeCreatorTheme
-import com.plcoding.cmp_memecreator.meme_editor.presentation.components.BottomBar
-import com.plcoding.cmp_memecreator.meme_editor.presentation.components.ConfirmationDialog
-import com.plcoding.cmp_memecreator.meme_editor.presentation.components.ConfirmationDialogConfig
-import com.plcoding.cmp_memecreator.meme_editor.presentation.components.DraggableContainer
+import com.firstmaker.meme.meme_editor.presentation.components.BottomBar
+import com.firstmaker.meme.meme_editor.presentation.components.ConfirmationDialog
+import com.firstmaker.meme.meme_editor.presentation.components.ConfirmationDialogConfig
+import com.firstmaker.meme.meme_editor.presentation.components.DraggableContainer
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
