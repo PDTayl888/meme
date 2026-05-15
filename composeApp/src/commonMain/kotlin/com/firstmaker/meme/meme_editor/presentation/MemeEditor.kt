@@ -35,8 +35,8 @@ import cmpmemecreator.composeapp.generated.resources.leave
 import cmpmemecreator.composeapp.generated.resources.leave_editor_message
 import cmpmemecreator.composeapp.generated.resources.leave_editor_title
 import cmpmemecreator.composeapp.generated.resources.meme_template_01
-import com.plcoding.cmp_memecreator.core.presentation.MemeTemplate
-import com.plcoding.cmp_memecreator.core.theme.MemeCreatorTheme
+import com.firstmaker.meme.core.presentation.MemeTemplate
+import com.firstmaker.meme.core.theme.MemeCreatorTheme
 import com.plcoding.cmp_memecreator.meme_editor.presentation.components.BottomBar
 import com.plcoding.cmp_memecreator.meme_editor.presentation.components.ConfirmationDialog
 import com.plcoding.cmp_memecreator.meme_editor.presentation.components.ConfirmationDialogConfig
